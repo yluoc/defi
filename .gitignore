@@ -1,0 +1,21 @@
+# Ignore everything by default
+/*
+
+# Un-ignore specific files and directories to track
+!script/
+!src/
+!test/
+!.gitignore
+!foundry.toml
+!LICENSE
+!Makefile
+!README.md
+
+# Keep cache and out contents
+!cache/**
+!out/**
+
+# Ensure we track the contents of the directories we want
+!script/**
+!src/**
+!test/**
